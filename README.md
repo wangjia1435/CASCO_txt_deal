@@ -1,5 +1,7 @@
 # CASCO_txt_deal
 txt文本处理打印关键信息
 编译环境window平台  VS2010
-里面涉及txt文件的操作。已知待Parse的很多歌txt_parse,这个txt_parse在一个目录下。txt内容有地铁软件运行loophour.time.50个齿号十六进制表示。
-1 
+里面涉及txt文件的操作。已知待Parse的很多txt_parse,这个txt_parse在一个目录下。txt内容有地铁软件运行loophour.time.50个齿号十六进制表示。
+1 FindFileName.cpp 将一个目录下包括子目录的所有文件名printf输出，然后在bash命令行可以将内容输出到txt文件。
+2 ReadTxtContend.cpp将txt中保存的文件名提取存在数组中
+
